@@ -1,0 +1,33 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+# Project exclude paths
+/cas_login/src/main/resources/
+/cas_login/target/
+/cas_support/target/
+/cas_viewA/target/
+/session_support/target/
+/sessionA/target/
+/sessionB/target/
