@@ -53,7 +53,7 @@ public class MyRequestWrapper extends HttpServletRequestWrapper {
         } else {
             System.out.println("create session by rId:"+uuid);
             sessionId = UUID.randomUUID().toString();
-            attr = new HashMap<>();
+            attr = new HashMap<String,Object>(16);
         }
 
         //session成员变量持有

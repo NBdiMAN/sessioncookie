@@ -34,8 +34,8 @@ public class IndexController {
             return "redirect:"+request.getParameter("url")+"?ticket="+ticket;
         }
         UserForm user = new UserForm();
-        user.setUsername("Peter");
-        user.setPassword("Peter");
+//        user.setUsername("Peter");
+//        user.setPassword("Peter");
         user.setBackurl(request.getParameter("url"));
         model.addAttribute("user", user);
 
